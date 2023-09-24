@@ -36,7 +36,7 @@ filtered = list(filter(lambda x: isinstance(x, str) and 'a' in x, list_1))
 print(filtered)
 
 # 4.4. Используя лямбда выражение, получите результат перемножения значений в предыдущем списке
-# from functools import reduce
+from functools import reduce
 result = reduce(lambda x, y: x * y, new_list)
 print(result)
 
