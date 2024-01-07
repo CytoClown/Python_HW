@@ -36,17 +36,17 @@ print(tuple(list3))
 #      Ожидаемый результат - программа выводит семью с бОльшим составом.
 # Если состав одинаковый, print("Equal')
 
-family1 = input()
-family2 = input()
-t = family1.split()
-t1 = family2.split()
-string = ''
-if len(t) > len(t1):
-    print(', '.join(t))
-elif len(t1) > len(t):
-    print(', '.join(t1))
-else:
-    print('Equal')
+# family1 = input()
+# family2 = input()
+# t = family1.split()
+# t1 = family2.split()
+# string = ''
+# if len(t) > len(t1):
+#     print(', '.join(t))
+# elif len(t1) > len(t):
+#     print(', '.join(t1))
+# else:
+#     print('Equal')
 
 # 3.5. Создайте словарь film c ключами title, director, year, budget, main_actor, slogan. В значения можете передать информацию
 #     о вашем любимом фильме.
